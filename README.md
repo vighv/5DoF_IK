@@ -1,2 +1,3 @@
 # 5DoF_IK
-Analytical Inverse Kinematics for a 5-DoF RRPRR Robotic Arm
+An analytical solution for the Inverse Kinematics of a 5-DoF Robotic Arm.
+The structure of the arm is RRPRR, where R denotes a revolute joint, and P denotes a prismatic joint. The DH parameters for the robot are:
