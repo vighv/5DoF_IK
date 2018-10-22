@@ -1,10 +1,10 @@
-% Inverse Kinematics function that takes in a 4x4 homogenous transform 
+% Inverse Kinematics function that takes in a 4x4 homogeneous transform 
 % matrix T and returns the joint variable values for a 5-DoF RRPRR 
 % robotic arm. Refer documentation for DH parameters, link lengths, and
 % joint variable ranges.
 %
 % Usage: j = IK(T)
-% Input: T, 4x4 homogenous transformation matrix, element of the group SE(3)
+% Input: T, 4x4 homogeneous transformation matrix, element of the group SE(3)
 % Output: j, 1x5 row vector of joint variables
 % If no solution is found, or the joint variables violate forward kinematic 
 % invariance constraints, the element j(3) is set to -1.
