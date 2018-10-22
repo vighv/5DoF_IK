@@ -4,4 +4,4 @@ The structure of the arm is RRPRR, where R denotes a revolute joint, and P denot
 
 ![DH parameters](https://github.com/vighv/5DoF_IK/blob/master/DHparams.PNG)
 
-The IK function takes in a 4x4 homogeneous transformation matrix T, and returns a 1x5 vector of joint variables. The length parameters (d<sub>i<\sub>, a<sub>i<\sub>) can be adapted to any other RRPRR arm with the same revolute joint ranges.
+The IK function takes in a 4x4 homogeneous transformation matrix T, and returns a 1x5 vector of joint variables. The length parameters (d<sub>i</sub>, a<sub>i</sub>) can be adapted to any other RRPRR arm with the same revolute joint ranges.
